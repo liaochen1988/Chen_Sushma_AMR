@@ -1,11 +1,18 @@
-SequenceID,StartPosition,EndPosition,Strand,Name_GenBank,Name_RefSeq,Product_GenBank,Product_RefSeq,Source_GenBank,Source_RefSeq
-CXPD01000008.1,222051,222177,-1,mntS,mntS,Small protein MntS,manganase accumulation protein MntS,EMBL,Protein Homology
-CXPD01000008.1,222362,222836,1,mntR,mntR,DNA-binding transcriptional regulator of mntH,manganese-binding transcriptional regulator MntR,EMBL,Protein Homology
-CXPD01000018.1,407809,409051,-1,mntH,,manganese/divalent cation transporter,,EMBL,
-CXPD01000032.1,1,739,-1,mntB,,Manganese transport system ATP-binding protein MntB,,EMBL,
-CXPD01000011.1,25540,26428,1,,,,manganese catalase family protein,,Protein Homology
-CXPD01000017.1,282182,282749,1,,mntP,,manganese efflux pump MntP,,Protein Homology
-CXPD01000021.1,144173,144995,1,,,,manganese/iron ABC transporter ATP-binding protein,,Protein Homology
-CXPD01000021.1,144991,145840,1,,sitC,,iron/manganese ABC transporter permease subunit SitC,,Protein Homology
-CXPD01000032.1,20461,21322,-1,,sitC,,iron/manganese ABC transporter permease subunit SitC,,Protein Homology
-CXPD01000032.1,21318,22140,-1,,,,manganese/iron ABC transporter ATP-binding protein,,Protein Homology
+SequenceID,StartPosition,EndPosition,Strand,Name_GenBank,Name_RefSeq,Name_Prokka,Product_GenBank,Product_RefSeq,Product_Prokka,Source_GenBank,Source_RefSeq,Source_Prokka
+CXPD01000008.1,222051,222177,-1,mntS,mntS,mntS,Small protein MntS,manganase accumulation protein MntS,Small protein MntS,EMBL,Protein Homology,Prodigal:002006
+CXPD01000008.1,222362,222836,1,mntR,mntR,mntR,DNA-binding transcriptional regulator of mntH,manganese-binding transcriptional regulator MntR,Transcriptional regulator MntR,EMBL,Protein Homology,Prodigal:002006
+CXPD01000018.1,407809,409051,-1,mntH,,mntH,manganese/divalent cation transporter,,Divalent metal cation transporter MntH,EMBL,,Prodigal:002006
+CXPD01000032.1,1,739,-1,mntB,,scaC,Manganese transport system ATP-binding protein MntB,,Manganese import ATP-binding protein ScaC,EMBL,,Prodigal:002006
+CXPD01000011.1,25540,26428,1,,,,,manganese catalase family protein,,,Protein Homology,
+CXPD01000017.1,282182,282749,1,,mntP,mntP,,manganese efflux pump MntP,putative manganese efflux pump MntP,,Protein Homology,Prodigal:002006
+CXPD01000021.1,144173,144995,1,,,mntB_3,,manganese/iron ABC transporter ATP-binding protein,Manganese transport system ATP-binding protein MntB,,Protein Homology,Prodigal:002006
+CXPD01000021.1,144991,145840,1,,sitC,mntB_4,,iron/manganese ABC transporter permease subunit SitC,Manganese transport system membrane protein MntB,,Protein Homology,Prodigal:002006
+CXPD01000032.1,20461,21322,-1,,sitC,mntB_7,,iron/manganese ABC transporter permease subunit SitC,Manganese transport system membrane protein MntB,,Protein Homology,Prodigal:002006
+CXPD01000032.1,21318,22140,-1,,,mntB_8,,manganese/iron ABC transporter ATP-binding protein,Manganese transport system ATP-binding protein MntB,,Protein Homology,Prodigal:002006
+CXPD01000021.1,96290,97169,-1,,,mntA_1,,,Manganese-binding lipoprotein MntA,,,Prodigal:002006
+CXPD01000021.1,97176,98040,-1,,,mntB_1,,,Manganese transport system membrane protein MntB,,,Prodigal:002006
+CXPD01000021.1,98036,98714,-1,,,mntB_2,,,Manganese transport system ATP-binding protein MntB,,,Prodigal:002006
+CXPD01000021.1,145833,146688,1,,,mntB_5,,,Manganese transport system membrane protein MntB,,,Prodigal:002006
+CXPD01000032.1,19640,20468,-1,,,mntB_6,,,Manganese transport system membrane protein MntB,,,Prodigal:002006
+CXPD01000032.1,32383,33334,-1,,,mntA_2,,,Manganese-binding lipoprotein MntA,,,Prodigal:002006
+CXPD01000032.1,33365,34172,-1,,,mntC,,,Manganese transport system membrane protein MntC,,,Prodigal:002006
